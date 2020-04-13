@@ -4,8 +4,8 @@ print(sys.version)
 print(sys.executable)
 
 
-def greet(whotogreet):
-    greeting = "Hello, {}".format(whotogreet)
+def greet(parm1):
+    greeting = "Hello, {}".format(parm1)
     return greeting
 
 
